@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Perfil - Synapse</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      .profile-header {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 12px;
+        border: 1px solid var(--card-border);
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .profile-info {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+      }
+      .info-box {
+        background: var(--bg-color);
+        padding: 1rem;
+        border-radius: 8px;
+        flex: 1;
+      }
+      .history-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="assets/img/Logo Synapse.png" alt="logo synapse" />
+        <h1>Synapse</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="buscar.html">Buscar IAs</a></li>
+        <li><a href="consultoria.html">Consultoria</a></li>
+      </ul>
+      <a href="perfil.html" class="profile-icon"
+        ><i class="fa-regular fa-user"></i
+      ></a>
+    </nav>
+
+    <main class="container">
+      <div class="profile-header">
+        <div>
+          <h2 id="user-name">Carregando...</h2>
+          <p id="user-email" style="color: var(--text-muted)"></p>
+          <div class="profile-info">
+            <div class="info-box">
+              <strong>Empresa:</strong> <span id="user-company"></span>
+            </div>
+            <div class="info-box">
+              <strong>Cargo:</strong> <span id="user-role"></span>
+            </div>
+            <div class="info-box">
+              <strong>Telefone:</strong> <span id="user-phone"></span>
+            </div>
+          </div>
+        </div>
+        <button
+          style="
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+          "
+        >
+          Sair
+        </button>
+      </div>
+
+      <div class="history-grid">
+        <div
+          class="card-detail"
+          style="
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+          "
+        >
+          <h2 style="margin-bottom: 1.5rem">
+            <i class="fa-solid fa-heart" style="color: #8b5cf6"></i> Favoritos
+          </h2>
+          <div id="favorites-list"></div>
+        </div>
+        <div
+          class="card-detail"
+          style="
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+          "
+        >
+          <h2 style="margin-bottom: 1.5rem">
+            <i class="fa-solid fa-clock" style="color: #8b5cf6"></i> Histórico
+            de Cliques
+          </h2>
+          <div id="history-list"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

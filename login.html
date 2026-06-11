@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synapse - Login & Cadastro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      .tag-active {
+        background-color: #a78bfa !important;
+        color: white !important;
+        border-color: #8b5cf6 !important;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gray-50 flex items-center justify-center min-height-screen py-12 px-4 sm:px-6 lg:px-8 font-sans"
+  >
+    <div
+      class="max-w-xl w-full bg-white rounded-2xl shadow-xl p-8 relative border border-gray-100"
+    >
+      <div
+        class="absolute -top-6 -left-6 w-16 h-16 bg-gradient-to-tr from-purple-500 via-pink-500 to-orange-400 rounded-full flex items-center justify-center shadow-lg opacity-90"
+      >
+        <svg
+          class="w-8 h-8 text-white"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+        </svg>
+      </div>
+
+      <div class="text-center mb-8">
+        <h2
+          id="form-title"
+          class="text-3xl font-bold text-gray-900 tracking-tight"
+        >
+          Criar sua Conta
+        </h2>
+        <p id="form-subtitle" class="text-sm text-gray-500 mt-2">
+          Explore as melhores ferramentas de IA do mercado.
+        </p>
+      </div>
+
+      <div class="mb-6">
+        <button
+          onclick="loginComGoogle()"
+          class="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 font-medium py-3 px-4 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
+        >
+          <svg class="w-5 h-5" viewBox="0 0 24 24">
+            <path
+              fill="#4285F4"
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+            />
+            <path
+              fill="#34A853"
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+            />
+            <path
+              fill="#FBBC05"
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+            />
+            <path
+              fill="#EA4335"
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+            />
+          </svg>
+          <span>Continuar com o Gmail</span>
+        </button>
+      </div>
+
+      <div class="relative flex py-2 items-center mb-6">
+        <div class="flex-grow border-t border-gray-200"></div>
+        <span
+          class="flex-shrink mx-4 text-gray-400 text-xs uppercase tracking-wider"
+          >ou usar e-mail e senha</span
+        >
+        <div class="flex-grow border-t border-gray-200"></div>
+      </div>
+
+      <form id="auth-form" onsubmit="handleFormSubmit(event)" class="space-y-5">
+        <div id="container-nome">
+          <label class="block text-sm font-semibold text-gray-700 mb-1"
+            >Nome Completo *</label
+          >
+          <div class="relative rounded-xl shadow-sm">
+            <div
+              class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400"
+            >
+              <i class="fa-regular d-block fa-user"></i>
+            </div>
+            <input
+              type="text"
+              id="nome"
+              required
+              class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm placeholder-gray-400"
+              placeholder="Seu nome completo"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1"
+            >E-mail Profissional *</label
+          >
+          <div class="relative rounded-xl shadow-sm">
+            <div
+              class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400"
+            >
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <input
+              type="email"
+              id="email"
+              required
+              class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm placeholder-gray-400"
+              placeholder="seu@email.com"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1"
+            >Senha *</label
+          >
+          <div class="relative rounded-xl shadow-sm">
+            <div
+              class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400"
+            >
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <input
+              type="password"
+              id="senha"
+              required
+              minlength="6"
+              class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm placeholder-gray-400"
+              placeholder="••••••••"
+            />
+          </div>
+        </div>
+
+        <div id="container-empresa-cargo" class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1"
+              >Empresa</label
+            >
+            <div class="relative rounded-xl shadow-sm">
+              <div
+                class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400"
+              >
+                <i class="fa-regular fa-building"></i>
+              </div>
+              <input
+                type="text"
+                id="empresa"
+                class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm placeholder-gray-400"
+                placeholder="Nome da empresa"
+              />
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1"
+              >Cargo/Função</label
+            >
+            <div class="relative rounded-xl shadow-sm">
+              <div
+                class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400"
+              >
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <input
+                type="text"
+                id="cargo"
+                class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm placeholder-gray-400"
+                placeholder="Seu cargo"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="container-telefone">
+          <label class="block text-sm font-semibold text-gray-700 mb-1"
+            >Telefone/WhatsApp</label
+          >
+          <div class="relative rounded-xl shadow-sm">
+            <div
+              class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <input
+              type="tel"
+              id="telefone"
+              class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-sm placeholder-gray-400"
+              placeholder="(00) 00000-0000"
+            />
+          </div>
+        </div>
+
+        <div id="container-interesses" class="space-y-2">
+          <label
+            class="block text-sm font-semibold text-gray-700 flex items-center gap-2"
+          >
+            <i class="fa-solid fa-tag text-purple-600 text-xs"></i> Áreas de
+            Interesse
+          </label>
+          <div class="flex flex-wrap gap-2 pt-1">
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Produtividade
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Design
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Desenvolvimento
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Análise de Dados
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Marketing
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Automação
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Criação de Conteúdo
+            </button>
+            <button
+              type="button"
+              onclick="toggleTag(this)"
+              class="px-3 py-1.5 text-xs font-medium border border-gray-200 bg-gray-50 text-gray-600 rounded-lg hover:border-purple-400 transition-all"
+            >
+              Gestão de Projetos
+            </button>
+          </div>
+          <p class="text-xs text-gray-400 mt-1">
+            Selecione as áreas que mais te interessam para personalizar sua
+            experiência.
+          </p>
+        </div>
+
+        <div class="pt-2">
+          <button
+            type="submit"
+            id="submit-btn"
+            class="w-full py-3.5 bg-[#8b3dff] hover:bg-[#762ee6] text-white font-semibold rounded-xl shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+          >
+            Criar Conta e Explorar IAs
+          </button>
+        </div>
+      </form>
+
+      <div class="text-center mt-6 text-sm text-gray-500">
+        <span id="switch-text">Já tem uma conta?</span>
+        <button
+          onclick="toggleAuthMode()"
+          id="switch-btn"
+          class="text-[#8b3dff] font-semibold hover:underline focus:outline-none ml-1"
+        >
+          Fazer Login
+        </button>
+      </div>
+
+      <div class="text-center mt-6 pt-4 border-t border-gray-100">
+        <p class="text-xs text-gray-400">
+          Ao criar uma conta ou entrar, você concorda com nossos termos de uso e
+          política de privacidade
+        </p>
+      </div>
+    </div>
+
+    <script>
+      let isLoginMode = false
+      const selectedTags = new Set()
+
+      // Alterna entre o modo "Criar Conta" e o modo "Login"
+      function toggleAuthMode() {
+        isLoginMode = !isLoginMode
+
+        const title = document.getElementById('form-title')
+        const subtitle = document.getElementById('form-subtitle')
+        const submitBtn = document.getElementById('submit-btn')
+        const switchText = document.getElementById('switch-text')
+        const switchBtn = document.getElementById('switch-btn')
+
+        // Elementos opcionais da criação de conta
+        const containerNome = document.getElementById('container-nome')
+        const containerEmpresaCargo = document.getElementById(
+          'container-empresa-cargo',
+        )
+        const containerTelefone = document.getElementById('container-telefone')
+        const containerInteresses = document.getElementById(
+          'container-interesses',
+        )
+
+        if (isLoginMode) {
+          title.innerText = 'Acessar sua Conta'
+          subtitle.innerText = 'Bem-vindo de volta! Entre para continuar.'
+          submitBtn.innerText = 'Entrar na Synapse'
+          switchText.innerText = 'Novo por aqui?'
+          switchBtn.innerText = 'Criar uma conta'
+
+          // Desativa campos desnecessários no login
+          containerNome.classList.add('hidden')
+          document.getElementById('nome').required = false
+          containerEmpresaCargo.classList.add('hidden')
+          containerTelefone.classList.add('hidden')
+          containerInteresses.classList.add('hidden')
+        } else {
+          title.innerText = 'Criar sua Conta'
+          subtitle.innerText =
+            'Explore as melhores ferramentas de IA do mercado.'
+          submitBtn.innerText = 'Criar Conta e Explorar IAs'
+          switchText.innerText = 'Já tem uma conta?'
+          switchBtn.innerText = 'Fazer Login'
+
+          // Reativa campos para cadastro
+          containerNome.classList.remove('hidden')
+          document.getElementById('nome').required = true
+          containerEmpresaCargo.classList.remove('hidden')
+          containerTelefone.classList.remove('hidden')
+          containerInteresses.classList.remove('hidden')
+        }
+      }
+
+      // Seleção Visual de Tags de Interesse
+      function toggleTag(button) {
+        const tagName = button.innerText
+        if (selectedTags.has(tagName)) {
+          selectedTags.delete(tagName)
+          button.classList.remove('tag-active')
+        } else {
+          selectedTags.add(tagName)
+          button.classList.add('tag-active')
+        }
+      }
+
+      // Simulação do Fluxo do Google Auth / Gmail
+      function loginComGoogle() {
+        alert(
+          'Redirecionando para o fluxo de aprovação segura do Google Accounts (OAuth 2.0)...',
+        )
+        // Aqui você conectaria com o Firebase Auth, Supabase ou Google API.
+        console.log('Chamada de API: iniciando login via Gmail.')
+      }
+
+      // Envio do formulário tradicional
+      // ... dentro da tag <script> ...
+
+      function handleFormSubmit(event) {
+        event.preventDefault()
+
+        // Simulação de validação (aqui você faria a chamada ao seu backend ou Firebase)
+        const email = document.getElementById('email').value
+
+        if (isLoginMode) {
+          console.log('Autenticando...')
+          // ADICIONE ESTA LINHA PARA REDIRECIONAR:
+          window.location.href = 'index.html'
+        } else {
+          console.log('Criando conta...')
+          // ADICIONE ESTA LINHA PARA REDIRECIONAR APÓS CADASTRO:
+          window.location.href = 'index.html'
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synapse - Consultoria</title>
+
+    <link rel="stylesheet" href="css/consultoria.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="assets/img/Logo Synapse.png" alt="logo synapse" />
+        <h1>Synapse</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="buscar.html">Buscar IAs</a></li>
+        <li><a href="consultoria.html" class="active">Consultoria</a></li>
+      </ul>
+      <a href="perfil.html" class="profile-icon"><i class="fas fa-user"></i></a>
+    </nav>
+
+    <header class="consultoria-hero">
+      <div class="hero-content">
+        <h1>Consultoria Especializada em Inteligência Artificial</h1>
+        <p>
+          Descubra as melhores ferramentas de IA do mercado, organizadas e
+          analisadas por especialistas. Implementação estratégica para maximizar
+          sua produtividade.
+        </p>
+      </div>
+    </header>
+
+    <section class="section-container">
+      <h2 class="section-title">Por que Escolher a Synapse??</h2>
+
+      <div class="beneficios-grid">
+        <div class="beneficio-card">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-crosshairs"></i>
+          </div>
+          <h3>Curadoria Especializada</h3>
+          <p>
+            Selecionamos apenas as melhores ferramentas do mercado, testadas e
+            validadas por especialistas.
+          </p>
+        </div>
+
+        <div class="beneficio-card">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h3>Implementação Rápida</h3>
+          <p>Processos otimizados que garantem resultados em meses.</p>
+        </div>
+
+        <div class="beneficio-card">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-rotate-right"></i>
+          </div>
+          <h3>Treinamento Completo</h3>
+          <p>
+            Capacitamos sua equipe para usar as ferramentas com máxima
+            eficiência e autonomia.
+          </p>
+        </div>
+
+        <div class="beneficio-card">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+          </div>
+          <h3>Otimização do seu processo</h3>
+          <p>
+            Mensuramos resultados e otimizamos continuamente para garantir o
+            melhor retorno.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container" style="padding-top: 0">
+      <h2 class="section-title">Nossos Serviços</h2>
+
+      <div class="servicos-grid">
+        <div class="servico-card">
+          <h3>Automação com n8n</h3>
+          <p class="servico-desc">
+            Criamos fluxos automatizados inteligentes que conectam suas
+            ferramentas e eliminam tarefas repetitivas do dia a dia.
+          </p>
+          <ul class="servico-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Integração entre sistemas e plataformas</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Automação de processos manuais</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Workflows personalizados com IA</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="servico-card">
+          <h3>Treinamentos Personalizados</h3>
+          <p class="servico-desc">
+            Capacitação prática e hands-on para sua equipe dominar as
+            ferramentas de IA mais relevantes para seu negócio.
+          </p>
+          <ul class="servico-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Workshops práticos com casos reais</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Material didático e templates prontos</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Suporte pós-treinamento por 30 dias</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="servico-card">
+          <h3>Implementação Completa</h3>
+          <p class="servico-desc">
+            Cuidamos de todo o processo técnico para você focar no que importa:
+            seu negócio e seus resultados.
+          </p>
+          <ul class="servico-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Customizações específicas do negócio</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Seleção de ferramentas ideais para seu caso</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Testes e garantia de qualidade</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato-section">
+      <div class="form-card">
+        <div class="form-header">
+          <h2>Vamos Conversar?</h2>
+          <p>
+            Preencha o formulário abaixo e nossa equipe entrará em contato em<br />até
+            24 horas para agendar uma consultoria gratuita.
+          </p>
+        </div>
+
+        <form id="consultoria-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome Completo *</label>
+              <input type="text" id="nome" required placeholder="Seu nome" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="seu@email.com"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="empresa">Empresa *</label>
+              <input
+                type="text"
+                id="empresa"
+                required
+                placeholder="Nome da empresa"
+              />
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" placeholder="(00) 00000-0000" />
+            </div>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="mensagem">Como podemos ajudar? *</label>
+            <textarea
+              id="mensagem"
+              rows="4"
+              required
+              placeholder="Conte-nos sobre seus desafios e objetivos..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            Enviar Mensagem <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,909 @@
+[
+  {
+    "id": 1,
+    "nome": "ChatGPT",
+    "descricao": "Conversas inteligentes para tirar dúvidas, criar roteiros e gerar ideias.",
+    "descricaoLonga": "ChatGPT é uma solução de inteligência artificial de ponta que revoluciona a forma como você trabalha. Com recursos avançados e interface intuitiva, esta ferramenta foi projetada para maximizar sua produtividade e entregar resultados excepcionais.",
+    "categoria": "Produtividade",
+    "tags": ["Chatbot", "Texto", "Brainstorm"],
+    "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png",
+    "imagemIcone": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png",
+    "preco": "Freemium",
+    "site": "https://chatgpt.com",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Interface intuitiva e fácil de usar",
+      "Suporte técnico especializado",
+      "Documentação completa em português",
+      "Integração com principais plataformas",
+      "Atualizações constantes e melhorias",
+      "Resultados comprovados no mercado"
+    ],
+    "recursos": [
+      {
+        "titulo": "Automação de Processos",
+        "descricao": "Otimize fluxos de trabalho repetitivos"
+      },
+      {
+        "titulo": "Melhoria de Produtividade",
+        "descricao": "Economize horas em tarefas diárias"
+      },
+      {
+        "titulo": "Qualidade Profissional",
+        "descricao": "Resultados de nível profissional"
+      },
+      {
+        "titulo": "Escalabilidade",
+        "descricao": "Cresce junto com seu negócio"
+      }
+    ],
+    "tagRelacionadas": ["Conversa", "Escrita"]
+  },
+  {
+    "id": 2,
+    "nome": "Perplexity",
+    "descricao": "Motor de respostas que pesquisa na web e resume fatos com fontes reais.",
+    "descricaoLonga": "Perplexity é um motor de busca com inteligência artificial que entrega respostas precisas com fontes verificadas. Ideal para pesquisa rápida e confiável.",
+    "categoria": "Produtividade",
+    "tags": ["Busca", "Pesquisa"],
+    "imagemUrl": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/perplexity.webp",
+    "imagemIcone": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/120px-Perplexity_AI_logo.svg.png",
+    "preco": "Freemium",
+    "site": "https://perplexity.ai",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Fontes verificadas em tempo real",
+      "Resumos precisos e objetivos",
+      "Interface limpa e eficiente",
+      "Citações automáticas",
+      "Modo acadêmico disponível",
+      "API para integração"
+    ],
+    "recursos": [
+      {
+        "titulo": "Busca em Tempo Real",
+        "descricao": "Pesquisa atualizada na web"
+      },
+      {
+        "titulo": "Citações Automáticas",
+        "descricao": "Fontes sempre visíveis"
+      },
+      {
+        "titulo": "Resumo Inteligente",
+        "descricao": "Síntese clara e objetiva"
+      },
+      {
+        "titulo": "Modo Acadêmico",
+        "descricao": "Ideal para pesquisas formais"
+      }
+    ],
+    "tagRelacionadas": ["Pesquisa", "Web", "Fontes"]
+  },
+  {
+    "id": 3,
+    "nome": "Mem",
+    "descricao": "Espaço de notas que usa IA para organizar e conectar seus pensamentos sozinho.",
+    "descricaoLonga": "Mem é um aplicativo de notas potencializado por IA que organiza automaticamente suas ideias, conecta conceitos relacionados e facilita a recuperação de informações.",
+    "categoria": "Produtividade",
+    "tags": ["Notas", "Auto-organização"],
+    "imagemUrl": "https://images.ctfassets.net/fcmhu5qfg1dk/7mDlVuUOhqpzcLWePnOi9w/f6a0a4810f3e2d71ceb665f7c2d8492e/Mem_-_App_Logo.png",
+    "imagemIcone": "https://storage.googleapis.com/mem-public-assets/sq-f.jpg",
+    "preco": "Freemium",
+    "site": "https://mem.ai",
+    "nivel": "Básico",
+    "beneficios": [
+      "Organização automática das notas",
+      "Conexão inteligente de ideias",
+      "Busca semântica poderosa",
+      "Sincronização em tempo real",
+      "Templates inteligentes",
+      "Colaboração em equipe"
+    ],
+    "recursos": [
+      {
+        "titulo": "Auto-organização",
+        "descricao": "IA organiza suas notas automaticamente"
+      },
+      {
+        "titulo": "Conexão de Ideias",
+        "descricao": "Liga conceitos relacionados"
+      },
+      {
+        "titulo": "Busca Semântica",
+        "descricao": "Encontre qualquer nota instantaneamente"
+      },
+      { "titulo": "Colaboração", "descricao": "Compartilhe e edite em equipe" }
+    ],
+    "tagRelacionadas": ["Notas", "Organização", "Produtividade"]
+  },
+  {
+    "id": 4,
+    "nome": "Fireflies.ai",
+    "descricao": "Assistente que entra em reuniões para gravar, transcrever e analisar decisões.",
+    "descricaoLonga": "Fireflies.ai automatiza a captura de reuniões com transcrição em tempo real, identificação de pontos-chave e análise de sentimentos para equipes mais produtivas.",
+    "categoria": "Produtividade",
+    "tags": ["Reunião", "Voz", "Automação"],
+    "imagemUrl": "https://play-lh.googleusercontent.com/3P1TI1OgB4Ydb3DSPujzjQkvKCg9M-oQgmoG4yWUnaMruqRA9Kw642My51nNB_laHzw77JJCsRvzBZZkH93t=w240-h480-rw",
+    "imagemIcone": "https://play-lh.googleusercontent.com/3P1TI1OgB4Ydb3DSPujzjQkvKCg9M-oQgmoG4yWUnaMruqRA9Kw642My51nNB_laHzw77JJCsRvzBZZkH93t=w240-h480-rw",
+    "preco": "Freemium",
+    "site": "https://fireflies.ai",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Transcrição automática em tempo real",
+      "Integração com Zoom, Meet e Teams",
+      "Análise de sentimentos",
+      "Resumos de reuniões automáticos",
+      "Buscas nas transcrições",
+      "Compartilhamento fácil"
+    ],
+    "recursos": [
+      {
+        "titulo": "Transcrição em Tempo Real",
+        "descricao": "Capta tudo que é dito"
+      },
+      {
+        "titulo": "Análise de Decisões",
+        "descricao": "Identifica pontos de ação"
+      },
+      {
+        "titulo": "Integração Total",
+        "descricao": "Funciona com as principais plataformas"
+      },
+      {
+        "titulo": "Relatórios Automáticos",
+        "descricao": "Resumos prontos após a reunião"
+      }
+    ],
+    "tagRelacionadas": ["Reunião", "Transcrição", "Voz"]
+  },
+  {
+    "id": 5,
+    "nome": "Jasper",
+    "descricao": "Plataforma de IA focada na geração de textos de alta conversão para empresas.",
+    "descricaoLonga": "Jasper é a ferramenta de IA preferida por times de marketing para criar conteúdo de alta performance, desde posts de blog até campanhas publicitárias completas.",
+    "categoria": "Produtividade",
+    "tags": ["Escrita", "Marketing"],
+    "imagemUrl": "https://img.icons8.com/fluent/1200/jasper-ai.jpg",
+    "imagemIcone": "https://img.icons8.com/fluent/1200/jasper-ai.jpg",
+    "preco": "Pago",
+    "site": "https://jasper.ai",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Templates para todos os formatos",
+      "Tom de voz personalizado",
+      "SEO integrado",
+      "Colaboração em equipe",
+      "Suporte a múltiplos idiomas",
+      "Integração com ferramentas de marketing"
+    ],
+    "recursos": [
+      {
+        "titulo": "Templates de Marketing",
+        "descricao": "Centenas de modelos prontos"
+      },
+      {
+        "titulo": "SEO Otimizado",
+        "descricao": "Conteúdo ranqueável no Google"
+      },
+      { "titulo": "Tom de Marca", "descricao": "Mantém a voz da sua empresa" },
+      {
+        "titulo": "Campanhas Completas",
+        "descricao": "Do conceito ao copy final"
+      }
+    ],
+    "tagRelacionadas": ["Copywriting", "Conteúdo", "Marketing"]
+  },
+  {
+    "id": 6,
+    "nome": "Clipdrop",
+    "descricao": "Suíte de ferramentas da Stability AI para edição rápida, como remover objetos e iluminar fotos.",
+    "descricaoLonga": "Clipdrop oferece um conjunto poderoso de ferramentas de edição de imagem movidas por IA, incluindo remoção de fundo, iluminação artificial e upscaling de qualidade profissional.",
+    "categoria": "Design",
+    "tags": ["Edição", "Rápido"],
+    "imagemUrl": "https://pbs.twimg.com/profile_images/1568611044913709063/HBO-bbEB_400x400.jpg",
+    "imagemIcone": "https://pbs.twimg.com/profile_images/1568611044913709063/HBO-bbEB_400x400.jpg",
+    "preco": "Freemium",
+    "site": "https://clipdrop.co",
+    "nivel": "Básico",
+    "beneficios": [
+      "Remoção de fundo em 1 clique",
+      "Iluminação artificial realista",
+      "Upscaling sem perda de qualidade",
+      "Inpainting avançado",
+      "Processamento em lote",
+      "API disponível"
+    ],
+    "recursos": [
+      {
+        "titulo": "Remove Background",
+        "descricao": "Remoção precisa em segundos"
+      },
+      {
+        "titulo": "Relight",
+        "descricao": "Iluminação artificial impressionante"
+      },
+      { "titulo": "Upscaler", "descricao": "Aumente a resolução sem perda" },
+      { "titulo": "Cleanup", "descricao": "Remova objetos indesejados" }
+    ],
+    "tagRelacionadas": ["Imagem", "Edição", "Stability AI"]
+  },
+  {
+    "id": 7,
+    "nome": "Magician",
+    "descricao": "Plugin que usa IA para gerar ícones, imagens e textos diretamente no seu fluxo de trabalho.",
+    "descricaoLonga": "Magician é um plugin para Figma que traz o poder da IA diretamente para o seu fluxo de design, gerando ícones únicos, variações de UI e textos criativos em segundos.",
+    "categoria": "Design",
+    "tags": ["UI/UX", "Ícones"],
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWFYSBvN8nkCuME5sMXAGy4yI9DjuXyeKGoA&s",
+    "imagemIcone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWFYSBvN8nkCuME5sMXAGy4yI9DjuXyeKGoA&s",
+    "preco": "Pago",
+    "site": "https://magician.design",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Integração nativa com Figma",
+      "Geração de ícones únicos",
+      "Copywriting para UI",
+      "Variações automáticas",
+      "Aceleração do design system",
+      "Atualizações frequentes"
+    ],
+    "recursos": [
+      {
+        "titulo": "Ícones com IA",
+        "descricao": "Gere ícones únicos por prompt"
+      },
+      {
+        "titulo": "Figma Nativo",
+        "descricao": "Funciona direto no seu editor"
+      },
+      { "titulo": "UI Copy", "descricao": "Textos otimizados para interfaces" },
+      { "titulo": "Variações", "descricao": "Múltiplas opções em segundos" }
+    ],
+    "tagRelacionadas": ["Figma", "Design", "UI"]
+  },
+  {
+    "id": 8,
+    "nome": "Leonardo.ai",
+    "descricao": "Plataforma poderosa para gerar imagens, texturas e ativos de jogos com IA.",
+    "descricaoLonga": "Leonardo.ai é uma plataforma de geração de imagens com IA especializada em assets para games, concept art e produção criativa de alto nível.",
+    "categoria": "Design",
+    "tags": ["Imagem", "Criatividade"],
+    "imagemUrl": "https://images.seeklogo.com/logo-png/61/1/leonardo-ai-logo-png_seeklogo-619354.png",
+    "imagemIcone": "https://images.seeklogo.com/logo-png/61/1/leonardo-ai-logo-png_seeklogo-619354.png",
+    "preco": "Freemium",
+    "site": "https://leonardo.ai",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Modelos fine-tuned para games",
+      "Geração em lote de assets",
+      "Editor de imagens integrado",
+      "Treinamento de modelos personalizados",
+      "API robusta",
+      "Comunidade activa"
+    ],
+    "recursos": [
+      {
+        "titulo": "Geração de Assets",
+        "descricao": "Texturas e sprites para games"
+      },
+      {
+        "titulo": "Concept Art",
+        "descricao": "Artes conceituais profissionais"
+      },
+      { "titulo": "Fine-tuning", "descricao": "Modelos no seu estilo" },
+      {
+        "titulo": "Editor Integrado",
+        "descricao": "Edite direto na plataforma"
+      }
+    ],
+    "tagRelacionadas": ["Games", "Arte", "Imagem"]
+  },
+  {
+    "id": 9,
+    "nome": "AdCreative.ai",
+    "descricao": "Gera banners de anúncios e posts para redes sociais de alta conversão em segundos.",
+    "descricaoLonga": "AdCreative.ai utiliza IA treinada com dados de anúncios de alta performance para gerar criativos publicitários que convertem mais.",
+    "categoria": "Design",
+    "tags": ["Anúncios", "Design"],
+    "imagemUrl": "https://storage.googleapis.com/swipe-insight/content/images/sources_logos/adcreative-ai.webp",
+    "imagemIcone": "https://storage.googleapis.com/swipe-insight/content/images/sources_logos/adcreative-ai.webp",
+    "preco": "Pago",
+    "site": "https://adcreative.ai",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Score de conversão para cada criativo",
+      "Integração com Google e Meta Ads",
+      "Geração em lote",
+      "Análise de concorrência",
+      "A/B testing automático",
+      "Suporte a múltiplos formatos"
+    ],
+    "recursos": [
+      {
+        "titulo": "Score de Conversão",
+        "descricao": "Prevê performance antes de publicar"
+      },
+      {
+        "titulo": "Multi-plataforma",
+        "descricao": "Google, Meta, LinkedIn e mais"
+      },
+      {
+        "titulo": "Geração em Lote",
+        "descricao": "Dezenas de variações de uma vez"
+      },
+      { "titulo": "Brand Kit", "descricao": "Mantém identidade visual" }
+    ],
+    "tagRelacionadas": ["Publicidade", "Social Media", "Conversão"]
+  },
+  {
+    "id": 10,
+    "nome": "Luma Labs",
+    "descricao": "Cria modelos 3D realistas e cenas imersivas a partir de fotos e vídeos simples.",
+    "descricaoLonga": "Luma Labs transforma fotos e vídeos comuns em cenas 3D fotorrealistas e experiências imersivas usando tecnologia de NeRF e Gaussian Splatting.",
+    "categoria": "Design",
+    "tags": ["3D", "Modelagem"],
+    "imagemUrl": "https://logos-world.net/wp-content/uploads/2024/11/Luma-Labs-Logo.jpg",
+    "imagemIcone": "https://logos-world.net/wp-content/uploads/2024/11/Luma-Labs-Logo.jpg",
+    "preco": "Freemium",
+    "site": "https://lumalabs.ai",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Fotorrealismo impressionante",
+      "Captura com smartphone",
+      "Exportação para formatos padrão",
+      "API para desenvolvedores",
+      "Integração com Unity e Unreal",
+      "Nuvem ilimitada"
+    ],
+    "recursos": [
+      { "titulo": "NeRF Technology", "descricao": "3D de última geração" },
+      {
+        "titulo": "Captura Mobile",
+        "descricao": "Crie modelos com seu celular"
+      },
+      {
+        "titulo": "Game Engine Ready",
+        "descricao": "Integra com Unity e Unreal"
+      },
+      { "titulo": "Exportação Universal", "descricao": "Todos os formatos 3D" }
+    ],
+    "tagRelacionadas": ["3D", "NeRF", "Imersivo"]
+  },
+  {
+    "id": 11,
+    "nome": "GitHub Copilot",
+    "descricao": "Assistente de código que sugere linhas e funções inteiras em tempo real no seu editor.",
+    "descricaoLonga": "GitHub Copilot é o par programador com IA mais adotado do mundo, treinado em bilhões de linhas de código para acelerar seu desenvolvimento.",
+    "categoria": "Programação",
+    "tags": ["Código", "Autocomplete"],
+    "imagemUrl": "https://img.icons8.com/fluent/1200/github-copilot.jpg",
+    "imagemIcone": "https://img.icons8.com/fluent/1200/github-copilot.jpg",
+    "preco": "Pago",
+    "site": "https://github.com/features/copilot",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Sugestões em tempo real",
+      "Suporte a todas as linguagens",
+      "Integração com VS Code e JetBrains",
+      "Geração de testes automáticos",
+      "Explicação de código",
+      "Refatoração inteligente"
+    ],
+    "recursos": [
+      {
+        "titulo": "Autocomplete Avançado",
+        "descricao": "Sugere blocos inteiros de código"
+      },
+      {
+        "titulo": "Multi-linguagem",
+        "descricao": "Python, JS, Go, Rust e mais"
+      },
+      {
+        "titulo": "Geração de Testes",
+        "descricao": "Testes unitários automáticos"
+      },
+      {
+        "titulo": "Chat de Código",
+        "descricao": "Tire dúvidas direto no editor"
+      }
+    ],
+    "tagRelacionadas": ["Desenvolvimento", "IDE", "Automação"]
+  },
+  {
+    "id": 12,
+    "nome": "Cursor",
+    "descricao": "Editor de código com IA embutida para escrever, refatorar e debugar mais rápido.",
+    "descricaoLonga": "Cursor é um editor de código construído do zero com IA integrada, permitindo edições em larga escala, geração de features completas e debug inteligente.",
+    "categoria": "Programação",
+    "tags": ["Editor", "Refatoração"],
+    "imagemUrl": "https://img.icons8.com/color/512/cursor-ai.png",
+    "imagemIcone": "https://img.icons8.com/color/512/cursor-ai.png",
+    "preco": "Freemium",
+    "site": "https://cursor.sh",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Edição de codebase inteiro com IA",
+      "Baseado no VS Code",
+      "Chat com contexto do projeto",
+      "Debug automático",
+      "Geração de features completas",
+      "Suporte a todos os frameworks"
+    ],
+    "recursos": [
+      {
+        "titulo": "Codebase Chat",
+        "descricao": "Converse com todo seu projeto"
+      },
+      { "titulo": "Composer", "descricao": "Gere features do zero" },
+      {
+        "titulo": "Debug Inteligente",
+        "descricao": "IA identifica e corrige bugs"
+      },
+      { "titulo": "VS Code Compatível", "descricao": "Migração sem dor" }
+    ],
+    "tagRelacionadas": ["IDE", "Código", "Debug"]
+  },
+  {
+    "id": 13,
+    "nome": "Copy.ai",
+    "descricao": "Ferramenta de copywriting para gerar textos de marketing persuasivos com IA.",
+    "descricaoLonga": "Copy.ai ajuda times de marketing a criarem conteúdo persuasivo mais rápido, com templates para email marketing, redes sociais e landing pages.",
+    "categoria": "Marketing",
+    "tags": ["Copywriting", "Conteúdo"],
+    "imagemUrl": "https://comparateur-ia.com/partners/copyai.png",
+    "imagemIcone": "https://comparateur-ia.com/partners/copyai.png",
+    "preco": "Freemium",
+    "site": "https://copy.ai",
+    "nivel": "Básico",
+    "beneficios": [
+      "Mais de 90 templates de copy",
+      "Geração em múltiplos idiomas",
+      "Workflows automatizados",
+      "Integração com CRM",
+      "Brand voice configurável",
+      "Editor colaborativo"
+    ],
+    "recursos": [
+      { "titulo": "Templates de Copy", "descricao": "90+ formatos prontos" },
+      {
+        "titulo": "Workflows",
+        "descricao": "Automação de pipeline de conteúdo"
+      },
+      { "titulo": "Multi-idioma", "descricao": "Conteúdo em qualquer língua" },
+      { "titulo": "CRM Integrado", "descricao": "Conecta com suas ferramentas" }
+    ],
+    "tagRelacionadas": ["Marketing", "Email", "Social Media"]
+  },
+  {
+    "id": 14,
+    "nome": "Synthesia",
+    "descricao": "Crie vídeos profissionais com apresentadores de IA sem câmera ou estúdio.",
+    "descricaoLonga": "Synthesia permite criar vídeos corporativos, treinamentos e conteúdo educativo com avatares de IA realistas em mais de 120 idiomas.",
+    "categoria": "Vídeo",
+    "tags": ["Avatar", "Apresentação"],
+    "imagemUrl": "https://fahimai.com/wp-content/uploads/2024/10/CTA-1-1.png",
+    "imagemIcone": "https://fahimai.com/wp-content/uploads/2024/10/CTA-1-1.png",
+    "preco": "Pago",
+    "site": "https://synthesia.io",
+    "nivel": "Básico",
+    "beneficios": [
+      "Mais de 140 avatares de IA",
+      "Suporte a 120+ idiomas",
+      "Templates corporativos",
+      "Sem necessidade de câmera",
+      "Atualizações sem regravação",
+      "Branding personalizado"
+    ],
+    "recursos": [
+      {
+        "titulo": "Avatares Realistas",
+        "descricao": "140+ apresentadores virtuais"
+      },
+      {
+        "titulo": "Multi-idioma",
+        "descricao": "120+ idiomas com sincronização labial"
+      },
+      { "titulo": "Templates", "descricao": "Designs corporativos prontos" },
+      { "titulo": "Edição Fácil", "descricao": "Atualize sem regravar" }
+    ],
+    "tagRelacionadas": ["Vídeo", "Corporativo", "Treinamento"]
+  },
+  {
+    "id": 15,
+    "nome": "Runway",
+    "descricao": "Suite criativa com IA para geração e edição de vídeos de nível cinematográfico.",
+    "descricaoLonga": "Runway é a plataforma de IA criativa usada por cineastas e estúdios profissionais para gerar, editar e transformar vídeos com qualidade cinematográfica.",
+    "categoria": "Vídeo",
+    "tags": ["Geração", "Cinema"],
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qi8ShndOjduTYHfKz6AUPdFI4y5hD9uY8w&s",
+    "imagemIcone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qi8ShndOjduTYHfKz6AUPdFI4y5hD9uY8w&s",
+    "preco": "Freemium",
+    "site": "https://runwayml.com",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Geração de vídeo por texto",
+      "Remoção de fundo em vídeo",
+      "Inpainting de vídeo",
+      "Motion tracking avançado",
+      "Integração com Adobe",
+      "Qualidade cinematográfica"
+    ],
+    "recursos": [
+      { "titulo": "Gen-2 Video", "descricao": "Geração de vídeo por texto" },
+      { "titulo": "Remove Background", "descricao": "Remoção em tempo real" },
+      {
+        "titulo": "Inpainting",
+        "descricao": "Edição criativa de qualquer frame"
+      },
+      { "titulo": "Motion Brush", "descricao": "Controle total do movimento" }
+    ],
+    "tagRelacionadas": ["Vídeo", "Geração", "Edição"]
+  },
+  {
+    "id": 16,
+    "nome": "Consensus",
+    "descricao": "Motor de busca científico que usa IA para encontrar evidências em artigos acadêmicos.",
+    "descricaoLonga": "Consensus é um motor de pesquisa científica que usa IA para extrair e sintetizar resultados de pesquisas peer-reviewed, facilitando revisões de literatura.",
+    "categoria": "Pesquisa",
+    "tags": ["Acadêmico", "Ciência"],
+    "imagemUrl": "https://framerusercontent.com/images/LDoQQ5WRIW2qGgO5NYEokWPffIk.png",
+    "imagemIcone": "https://framerusercontent.com/images/LDoQQ5WRIW2qGgO5NYEokWPffIk.png",
+    "preco": "Freemium",
+    "site": "https://consensus.app",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Acesso a 200M+ artigos científicos",
+      "Síntese automática de evidências",
+      "Filtros por ano e campo",
+      "Exportação de referências",
+      "Medidor de consenso científico",
+      "Citações em formato ABNT"
+    ],
+    "recursos": [
+      { "titulo": "Busca Científica", "descricao": "200M+ papers indexados" },
+      {
+        "titulo": "Síntese de Evidências",
+        "descricao": "IA resume os resultados"
+      },
+      {
+        "titulo": "Medidor de Consenso",
+        "descricao": "Veja o que a ciência conclui"
+      },
+      {
+        "titulo": "Exportação",
+        "descricao": "Referências em todos os formatos"
+      }
+    ],
+    "tagRelacionadas": ["Pesquisa", "Científico", "Literatura"]
+  },
+  {
+    "id": 17,
+    "nome": "Tabnine",
+    "descricao": "Assistente de código focado em privacidade que aprende o estilo do seu time.",
+    "descricaoLonga": "Tabnine é um assistente de desenvolvimento baseado em IA que oferece autocompletar de código contextual. Destaca-se pelo forte foco em segurança e privacidade, permitindo rodar modelos localmente.",
+    "categoria": "Programação",
+    "tags": ["Código", "Privacidade", "Autocomplete"],
+    "imagemUrl": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-visual-studio/1.282.12/1778490688551/Microsoft.VisualStudio.Services.Icons.Default",
+    "imagemIcone": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-visual-studio/1.282.12/1778490688551/Microsoft.VisualStudio.Services.Icons.Default",
+    "preco": "Freemium",
+    "site": "https://tabnine.com",
+    "nivel": "Básico",
+    "beneficios": [
+      "Modelos isolados e privados",
+      "Sugestões baseadas no seu padrão",
+      "Compatível com mais de 30 linguagens",
+      "Funciona offline em planos corporativos"
+    ],
+    "recursos": [
+      {
+        "titulo": "Privacidade Total",
+        "descricao": "Seu código nunca é usado para treinar modelos públicos"
+      },
+      {
+        "titulo": "Adaptação Local",
+        "descricao": "Aprende com repositórios locais da equipe"
+      }
+    ],
+    "tagRelacionadas": ["IDE", "Segurança", "Desenvolvimento"]
+  },
+  {
+    "id": 18,
+    "nome": "Codeium",
+    "descricao": "Alternativa gratuita e veloz ao Copilot com busca no codebase e chat embutido.",
+    "descricaoLonga": "Codeium traz recursos avançados de geração de código, refatoração e chat inteligente diretamente para o seu editor de preferência, oferecendo um excelente plano gratuito.",
+    "categoria": "Programação",
+    "tags": ["Gratuito", "Chat", "Produtividade"],
+    "imagemUrl": "https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1674409328/icons/codeium.png",
+    "imagemIcone": "https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1674409328/icons/codeium.png",
+    "preco": "Freemium",
+    "site": "https://codeium.com",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Plano individual totalmente gratuito",
+      "Velocidade de resposta impressionante",
+      "Busca semântica em arquivos do projeto",
+      "Suporte a dezenas de IDEs populares"
+    ],
+    "recursos": [
+      {
+        "titulo": "Codeium Chat",
+        "descricao": "Explique, gere ou refatore código conversando"
+      },
+      {
+        "titulo": "Busca Inteligente",
+        "descricao": "Encontre funções e arquivos usando linguagem natural"
+      }
+    ],
+    "tagRelacionadas": ["Código", "IDE", "Autocomplete"]
+  },
+  {
+    "id": 19,
+    "nome": "Replit Agent",
+    "descricao": "IA capaz de criar e colocar aplicações completas no ar a partir de prompts simples.",
+    "descricaoLonga": "O Replit Agent é um desenvolvedor autônomo baseado em IA que cria o backend, frontend e gerencia o deploy de aplicações web direto no navegador.",
+    "categoria": "Programação",
+    "tags": ["Autônomo", "Fullstack", "Deploy"],
+    "imagemUrl": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/replit-color.png",
+    "imagemIcone": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/replit-color.png",
+    "preco": "Pago",
+    "site": "https://replit.com",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Desenvolvimento ponta a ponta autónomo",
+      "Ambiente de nuvem já integrado",
+      "Instalação automática de dependências",
+      "Ideal para prototipagem rápida de MVPs"
+    ],
+    "recursos": [
+      {
+        "titulo": "Agente Autônomo",
+        "descricao": "Cria banco de dados e rotas sozinho"
+      },
+      {
+        "titulo": "Deploy Instantâneo",
+        "descricao": "Coloque o app no ar com um clique"
+      }
+    ],
+    "tagRelacionadas": ["Web", "Fullstack", "Nuvem"]
+  },
+  {
+    "id": 20,
+    "nome": "Amazon Q Developer",
+    "descricao": "Assistente focado em arquitetura AWS e desenvolvimento corporativo seguro.",
+    "descricaoLonga": "Amazon Q Developer (antigo CodeWhisperer) auxilia engenheiros a escreverem códigos eficientes, seguros e totalmente otimizados para serviços da AWS.",
+    "categoria": "Programação",
+    "tags": ["AWS", "Segurança", "Cloud"],
+    "imagemUrl": "https://images.seeklogo.com/logo-png/61/1/amazon-q-logo-png_seeklogo-615793.png",
+    "imagemIcone": "https://images.seeklogo.com/logo-png/61/1/amazon-q-logo-png_seeklogo-615793.png",
+    "preco": "Freemium",
+    "site": "https://aws.amazon.com/q/developer",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Especialista em documentação AWS",
+      "Varreduras de segurança automáticas",
+      "Otimização para Java, Python e JS",
+      "Sugestões alinhadas com boas práticas corporativas"
+    ],
+    "recursos": [
+      {
+        "titulo": "Security Scanning",
+        "descricao": "Identifique vulnerabilidades antes do commit"
+      },
+      {
+        "titulo": "AWS Expert",
+        "descricao": "Gere scripts de infraestrutura como código perfeitamente"
+      }
+    ],
+    "tagRelacionadas": ["Cloud", "DevOps", "Código"]
+  },
+  {
+    "id": 21,
+    "nome": "SurferSEO",
+    "descricao": "Planejamento e otimização de conteúdo focado em ranqueamento no Google.",
+    "descricaoLonga": "SurferSEO combina inteligência artificial com análise de dados de mecanismos de busca para estruturar e escrever artigos perfeitamente otimizados para o Google.",
+    "categoria": "Marketing",
+    "tags": ["SEO", "Conteúdo", "Tráfego"],
+    "imagemUrl": "https://cdn-public.softwarereviews.com/production/logos/offerings/8336/large/surfer-seo_logo.png?1734451470",
+    "imagemIcone": "https://cdn-public.softwarereviews.com/production/logos/offerings/8336/large/surfer-seo_logo.png?1734451470",
+    "preco": "Pago",
+    "site": "https://surferseo.com",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Sugestões de palavras-chave baseadas em dados reais",
+      "Análise de concorrentes em tempo real",
+      "Estruturação ideal de títulos e parágrafos",
+      "Auditoria de páginas existentes"
+    ],
+    "recursos": [
+      {
+        "titulo": "Content Editor",
+        "descricao": "Pontuação de SEO dinâmica enquanto escreve"
+      },
+      {
+        "titulo": "Keyword Research",
+        "descricao": "Descubra clusters de tópicos quentes no seu nicho"
+      }
+    ],
+    "tagRelacionadas": ["Google", "Escrita", "Blog"]
+  },
+  {
+    "id": 22,
+    "nome": "ManyChat",
+    "descricao": "Automação de conversas e funis de vendas para Instagram, WhatsApp e Facebook.",
+    "descricaoLonga": "ManyChat é a plataforma líder em automação de marketing conversacional, permitindo criar chatbots inteligentes que respondem directs e fecham vendas sozinhos.",
+    "categoria": "Marketing",
+    "tags": ["Automação", "WhatsApp", "Instagram"],
+    "imagemUrl": "https://cdn.prod.website-files.com/6282023139e6f54144ddf26a/62839f89e5cc595803fa337d_unnamed.jpeg",
+    "imagemIcone": "https://cdn.prod.website-files.com/6282023139e6f54144ddf26a/62839f89e5cc595803fa337d_unnamed.jpeg",
+    "preco": "Freemium",
+    "site": "https://manychat.com",
+    "nivel": "Básico",
+    "beneficios": [
+      "Aprovado oficialmente pela Meta",
+      "Gatilhos baseados em comentários em posts",
+      "Interface visual de arrastar e soltar",
+      "Integração rápida com CRMs do mercado"
+    ],
+    "recursos": [
+      {
+        "titulo": "Gatilhos de Post",
+        "descricao": "Envie links automáticos para quem comentar 'Quero'"
+      },
+      {
+        "titulo": "Funil de Vendas",
+        "descricao": "Qualifique leads diretamente pelo direct"
+      }
+    ],
+    "tagRelacionadas": ["Chatbot", "Vendas", "Redes Sociais"]
+  },
+  {
+    "id": 23,
+    "nome": "Phrasee",
+    "descricao": "Geração e otimização de títulos de email e notificações com foco em conversão.",
+    "descricaoLonga": "Phrasee usa IA generativa profunda para criar copys de alta conversão para canais digitais, garantindo que as mensagens sigam estritamente o tom da marca.",
+    "categoria": "Marketing",
+    "tags": ["Email", "Copywriting", "Conversão"],
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUAY7jaGiF06TnjPVsQoh4Irp9Rt2abFBKTw&s",
+    "imagemIcone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUAY7jaGiF06TnjPVsQoh4Irp9Rt2abFBKTw&s",
+    "preco": "Pago",
+    "site": "https://phrasee.co",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Aumento real na taxa de abertura de emails",
+      "Modelos de linguagem focados em conversão",
+      "Testes A/B preditivos automáticos",
+      "Garantia de segurança de tom de marca"
+    ],
+    "recursos": [
+      {
+        "titulo": "Brand Language",
+        "descricao": "A IA aprende as diretrizes e termos proibidos da marca"
+      },
+      {
+        "titulo": "Análise Preditiva",
+        "descricao": "Previsão de performance antes do envio do disparo"
+      }
+    ],
+    "tagRelacionadas": ["Copywriting", "Notificações", "Analytics"]
+  },
+  {
+    "id": 24,
+    "nome": "Mutiny",
+    "descricao": "Personalização de sites em tempo real para aumentar as conversões de tráfego B2B.",
+    "descricaoLonga": "Mutiny analisa a origem dos visitantes do seu site e altera textos, propostas de valor e CTAs dinamicamente focado em fechar negócios B2B.",
+    "categoria": "Marketing",
+    "tags": ["Landing Page", "B2B", "Personalização"],
+    "imagemUrl": "https://app.ashbyhq.com/api/images/org-theme-wordmark/fa930ce4-f8dd-42ce-a57e-6a1e709a537e/9cda03a0-f3cd-45fc-959e-9e7381c88cf3/6b614afd-be54-46c3-ab4d-b93ba7968bd1.png",
+    "imagemIcone": "https://app.ashbyhq.com/api/images/org-theme-wordmark/fa930ce4-f8dd-42ce-a57e-6a1e709a537e/9cda03a0-f3cd-45fc-959e-9e7381c88cf3/6b614afd-be54-46c3-ab4d-b93ba7968bd1.png",
+    "preco": "Pago",
+    "site": "https://mutinyhq.com",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Segmentação por setor e tamanho da empresa visitante",
+      "Sugestões de copy baseadas em IA para conversão",
+      "Integração com Salesforce e HubSpot",
+      "Painel completo de ROI de personalização"
+    ],
+    "recursos": [
+      {
+        "titulo": "Inbound IP Lookup",
+        "descricao": "Identifica a empresa do visitante sem formulários"
+      },
+      {
+        "titulo": "Visual Editor",
+        "descricao": "Altere elementos da página sem precisar codificar"
+      }
+    ],
+    "tagRelacionadas": ["Vendas", "Otimização", "Web"]
+  },
+  {
+    "id": 25,
+    "nome": "HeyGen",
+    "descricao": "Criação de vídeos com avatares ultra-realistas e clonagem de voz perfeita.",
+    "descricaoLonga": "HeyGen revoluciona a produção audiovisual corporativa permitindo gerar vídeos de porta-vozes a partir de scripts, incluindo sincronia labial impecável.",
+    "categoria": "Vídeo",
+    "tags": ["Avatar", "Voz", "Tradução"],
+    "imagemUrl": "https://img.icons8.com/fluent/1200/heygen.jpg",
+    "imagemIcone": "https://img.icons8.com/fluent/1200/heygen.jpg",
+    "preco": "Freemium",
+    "site": "https://heygen.com",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Clonagem de voz em múltiplos idiomas",
+      "Expressões faciais e corporais naturais",
+      "Tradução de vídeos mantendo a voz original",
+      "Criação rápida de conteúdo para redes em lote"
+    ],
+    "recursos": [
+      {
+        "titulo": "Video Translate",
+        "descricao": "Mude o idioma do seu vídeo mudando os lábios automaticamente"
+      },
+      {
+        "titulo": "Custom Avatars",
+        "descricao": "Transforme você mesmo em um avatar digital ativo"
+      }
+    ],
+    "tagRelacionadas": ["Corporativo", "Locução", "Geração"]
+  },
+  {
+    "id": 26,
+    "nome": "Descript",
+    "descricao": "Editor de áudio e vídeo baseado em texto: edite o vídeo cortando palavras.",
+    "descricaoLonga": "Descript transcreve seu arquivo e permite editar mídias como se estivesse alterando um documento do Word. Apague uma palavra e o trecho correspondente é deletado.",
+    "categoria": "Vídeo",
+    "tags": ["Edição", "Podcast", "Transcrição"],
+    "imagemUrl": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/descript-icon-b1yy6yjurfpujgkgtikwu.png/descript-icon-vrjwgsy86fm07riycz7zt63.png?_a=DATAiZAAZAA0",
+    "imagemIcone": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/descript-icon-b1yy6yjurfpujgkgtikwu.png/descript-icon-vrjwgsy86fm07riycz7zt63.png?_a=DATAiZAAZAA0",
+    "preco": "Freemium",
+    "site": "https://descript.com",
+    "nivel": "Básico",
+    "beneficios": [
+      "Remoção automática de palavras de preenchimento (tipo 'ãh', 'né')",
+      "Estúdio de som virtual para correção de ruídos",
+      "Geração de legendas animadas em segundos",
+      "Clonagem de voz para corrigir erros de fala digitando"
+    ],
+    "recursos": [
+      {
+        "titulo": "Text-Based Editing",
+        "descricao": "O fluxo de edição mais rápido do mercado"
+      },
+      {
+        "titulo": "Overdub",
+        "descricao": "Insira palavras novas digitando com sua própria voz simulada"
+      }
+    ],
+    "tagRelacionadas": ["Áudio", "Legendas", "Cortes"]
+  },
+  {
+    "id": 27,
+    "nome": "Opus Clip",
+    "descricao": "Transforme vídeos longos em shorts e reels virais com IA em um clique.",
+    "descricaoLonga": "Opus Clip analisa podcasts, lives e vídeos longos para extrair os momentos com maior potencial de viralização, adicionando ganchos e legendas dinâmicas.",
+    "categoria": "Vídeo",
+    "tags": ["Cortes", "Shorts", "Social Media"],
+    "imagemUrl": "https://media.licdn.com/dms/image/v2/D560BAQHcVb0_QUmqyA/company-logo_200_200/company-logo_200_200/0/1682576304396/opusclip_logo?e=2147483647&v=beta&t=C9IAyfpwDPr68tAESdWyMZYFQ78zJHdMVinGMMSANkA",
+    "imagemIcone": "https://media.licdn.com/dms/image/v2/D560BAQHcVb0_QUmqyA/company-logo_200_200/company-logo_200_200/0/1682576304396/opusclip_logo?e=2147483647&v=beta&t=C9IAyfpwDPr68tAESdWyMZYFQ78zJHdMVinGMMSANkA",
+    "preco": "Freemium",
+    "site": "https://opus.pro",
+    "nivel": "Básico",
+    "beneficios": [
+      "Pontuação de potencial de engajamento por gancho",
+      "Enquadramento automático do rosto em 9:16 (Auto-reframe)",
+      "Adiciona emojis e destaques visuais automáticos",
+      "Gera títulos e descrições prontos para postar"
+    ],
+    "recursos": [
+      {
+        "titulo": "Virality Score",
+        "descricao": "Algoritmo prevê quais cortes vão performar melhor"
+      },
+      {
+        "titulo": "Active Speaker Detection",
+        "descricao": "Acompanha quem está falando perfeitamente na tela"
+      }
+    ],
+    "tagRelacionadas": ["YouTube", "TikTok", "Edição"]
+  }
+]
