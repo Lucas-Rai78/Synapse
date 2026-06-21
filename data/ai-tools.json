@@ -906,4 +906,220 @@
     ],
     "tagRelacionadas": ["YouTube", "TikTok", "Edição"]
   }
+  ,{
+    "id": 29,
+    "nome": "Gamma",
+    "descricao": "Ferramenta de IA para criar apresentações, documentos e sites rapidamente.",
+    "descricaoLonga": "Gamma é uma alternativa moderna ao PowerPoint que utiliza inteligência artificial para gerar apresentações, documentos e páginas da web a partir de prompts de texto, com design profissional automático.",
+    "categoria": "Apresentações",
+    "tags": ["Apresentação", "Design", "Slides"],
+    "imagemUrl": "https://www.wpcrafter.com/wp-content/uploads/2024/08/gamma-1.png",
+    "imagemIcone": "https://www.wpcrafter.com/wp-content/uploads/2024/08/gamma-1.png",
+    "preco": "Freemium",
+    "site": "https://gamma.app",
+    "nivel": "Básico",
+    "beneficios": [
+      "Geração automática de slides por texto",
+      "Templates com design profissional",
+      "Incorporação de vídeos e GIFs nativamente",
+      "Exportação para PDF e PowerPoint"
+    ],
+    "recursos": [
+      { "titulo": "Text-to-Deck", "descricao": "Transforme um documento em uma apresentação completa" },
+      { "titulo": "Design Automático", "descricao": "A IA formata textos e imagens para o melhor layout" }
+    ],
+    "tagRelacionadas": ["Slides", "Pitch", "Documentos"]
+  },
+  {
+    "id": 30,
+    "nome": "Gemini",
+    "descricao": "IA multimodal do Google para escrita, planejamento, aprendizado e muito mais.",
+    "descricaoLonga": "Google Gemini é o modelo de linguagem multimodal mais avançado do Google, capaz de compreender e operar fluentemente com textos, imagens, áudio e código simultaneamente.",
+    "categoria": "Produtividade",
+    "tags": ["Chatbot", "Multimodal", "Google"],
+    "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/500px-Google_Gemini_icon_2025.svg.png",
+    "imagemIcone": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/500px-Google_Gemini_icon_2025.svg.png",
+    "preco": "Freemium",
+    "site": "https://gemini.google.com",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Integração nativa com o ecossistema Google Workspace",
+      "Processamento nativo de imagens e vídeos",
+      "Respostas rápidas e conectadas à web",
+      "Verificação de fatos com o Google Search integrado"
+    ],
+    "recursos": [
+      { "titulo": "Extensões Workspace", "descricao": "Interage direto com seu Gmail e Google Docs" },
+      { "titulo": "Multimodalidade", "descricao": "Envie imagens ou áudios como contexto para o chat" }
+    ],
+    "tagRelacionadas": ["Assistente", "Pesquisa", "Workspace"]
+  },
+  {
+    "id": 31,
+    "nome": "Claude",
+    "descricao": "Assistente focado em segurança, análise de longos documentos e escrita natural.",
+    "descricaoLonga": "Claude, desenvolvido pela Anthropic, é conhecido por sua enorme janela de contexto e tom de voz altamente natural. Excelente para ler PDFs massivos e escrever textos criativos ou técnicos.",
+    "categoria": "Produtividade",
+    "tags": ["Chatbot", "Texto", "Análise"],
+    "imagemUrl": "https://logo-teka.com/wp-content/uploads/2026/04/claude-icon-logo.png",
+    "imagemIcone": "https://logo-teka.com/wp-content/uploads/2026/04/claude-icon-logo.png",
+    "preco": "Freemium",
+    "site": "https://claude.ai",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Janela de contexto gigante (suporta livros inteiros)",
+      "Redação criativa mais humanizada",
+      "Recursos de programação avançados (Claude Artifacts)",
+      "Redução de alucinações de IA"
+    ],
+    "recursos": [
+      { "titulo": "Artifacts", "descricao": "Gera código e exibe o resultado visual (como jogos ou sites) na lateral" },
+      { "titulo": "Análise de Documentos", "descricao": "Resuma PDFs longos com extrema precisão" }
+    ],
+    "tagRelacionadas": ["Escrita", "Programação", "Resumo"]
+  },
+  {
+    "id": 32,
+    "nome": "Grok",
+    "descricao": "IA conversacional integrada ao X (Twitter) focada em notícias em tempo real.",
+    "descricaoLonga": "Grok é a IA desenvolvida pela xAI, totalmente integrada ao X. Possui acesso exclusivo a dados e conversas em tempo real, sendo excelente para acompanhar tendências, notícias e usar humor.",
+    "categoria": "Pesquisa",
+    "tags": ["Tempo Real", "Social Media", "Notícias"],
+    "imagemUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/grok-ai-icon.png",
+    "imagemIcone": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/grok-ai-icon.png",
+    "preco": "Pago",
+    "site": "https://grok.x.ai",
+    "nivel": "Básico",
+    "beneficios": [
+      "Acesso em tempo real ao feed do X",
+      "Estilo de conversação irreverente (Fun Mode)",
+      "Resumo de tendências atuais",
+      "Processamento rápido de informações virais"
+    ],
+    "recursos": [
+      { "titulo": "Acesso Exclusivo", "descricao": "Única IA com dados em tempo real da rede social X" },
+      { "titulo": "Modos de Personalidade", "descricao": "Alterne entre o modo formal e o modo humorístico" }
+    ],
+    "tagRelacionadas": ["Twitter", "Trending", "Atualidades"]
+  },
+  {
+    "id": 33,
+    "nome": "DeepSeek",
+    "descricao": "Modelos abertos poderosos e econômicos para codificação e raciocínio matemático.",
+    "descricaoLonga": "DeepSeek fornece modelos de IA altamente eficientes para desenvolvedores. Possui destaque global em testes de codificação e matemática avançada com um custo-benefício revolucionário.",
+    "categoria": "Programação",
+    "tags": ["Código", "Matemática", "Open Source"],
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqKHD28rGat3WVaqRkRDgIL-SHgOTHB6MrNg&s",
+    "imagemIcone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqKHD28rGat3WVaqRkRDgIL-SHgOTHB6MrNg&s",
+    "preco": "Freemium",
+    "site": "https://deepseek.com",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Excelência em raciocínio lógico e matemático",
+      "Geração de código precisa em várias linguagens",
+      "API com preços altamente competitivos",
+      "Modelos open-source disponíveis para download"
+    ],
+    "recursos": [
+      { "titulo": "DeepSeek Coder", "descricao": "Assistente especialista na geração e debug de códigos" },
+      { "titulo": "DeepSeek Reasoner", "descricao": "Modelo treinado com foco total em lógica profunda" }
+    ],
+    "tagRelacionadas": ["DevOps", "Lógica", "Desenvolvimento"]
+  },
+  {
+    "id": 34,
+    "nome": "Midjourney",
+    "descricao": "Gerador de imagens ultra-realistas para criações artísticas e profissionais.",
+    "descricaoLonga": "Midjourney é um laboratório de pesquisa e ferramenta de IA que produz as imagens mais impressionantes e artísticas a partir de descrições textuais. Opera através de comandos em canais do Discord.",
+    "categoria": "Design",
+    "tags": ["Imagem", "Arte", "Fotorrealismo"],
+    "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Midjourney_Emblem.svg",
+    "imagemIcone": "https://upload.wikimedia.org/wikipedia/commons/2/24/Midjourney_Emblem.svg",
+    "preco": "Pago",
+    "site": "https://midjourney.com",
+    "nivel": "Avançado",
+    "beneficios": [
+      "Qualidade visual superior em detalhes finos",
+      "Estilos artísticos altamente personalizáveis",
+      "Fotorrealismo impressionante para texturas e iluminação",
+      "Comunidade gigantesca de criadores"
+    ],
+    "recursos": [
+      { "titulo": "Parâmetros Avançados", "descricao": "Controle proporção, estilização e caos no prompt" },
+      { "titulo": "Character Reference", "descricao": "Mantenha a consistência de um personagem entre imagens" }
+    ],
+    "tagRelacionadas": ["Generativo", "Ilustração", "Criatividade"]
+  },
+  {
+    "id": 35,
+    "nome": "Microsoft Copilot",
+    "descricao": "Assistente de IA integrado ao Windows e aos aplicativos do Microsoft 365.",
+    "descricaoLonga": "Microsoft Copilot traz o poder do GPT-4 e DALL-E para o seu dia a dia, integrado nativamente ao Word, Excel, PowerPoint e ao sistema operacional Windows para automatizar tarefas.",
+    "categoria": "Produtividade",
+    "tags": ["Microsoft", "Office", "Pesquisa"],
+    "imagemUrl": "https://1000logos.net/wp-content/uploads/2023/11/Copilot-Logo.png",
+    "imagemIcone": "https://1000logos.net/wp-content/uploads/2023/11/Copilot-Logo.png",
+    "preco": "Freemium",
+    "site": "https://copilot.microsoft.com",
+    "nivel": "Básico",
+    "beneficios": [
+      "Criação automática de slides no PowerPoint",
+      "Análise de dados complexos no Excel com um clique",
+      "Resumo de reuniões longas no Teams",
+      "Pesquisa conectada e segura na web (Bing)"
+    ],
+    "recursos": [
+      { "titulo": "Integração M365", "descricao": "Cria rascunhos de e-mails no Outlook e textos no Word" },
+      { "titulo": "Image Creator", "descricao": "Gera imagens incríveis diretamente na barra lateral" }
+    ],
+    "tagRelacionadas": ["Corporativo", "Windows", "Automação"]
+  },
+  {
+    "id": 36,
+    "nome": "Blackbox AI",
+    "descricao": "IA feita para desenvolvedores: transforma perguntas em código utilizável.",
+    "descricaoLonga": "Blackbox AI ajuda engenheiros de software a escreverem código rapidamente, com a capacidade de pesquisar em repositórios massivos, extrair códigos de vídeos de programação e debugar falhas.",
+    "categoria": "Programação",
+    "tags": ["Código", "Buscador", "Extensão"],
+    "imagemUrl": "https://www.blackbox.ai/icon.png?icon.04xdnzo7on~3r.png",
+    "imagemIcone": "https://www.blackbox.ai/icon.png?icon.04xdnzo7on~3r.png",
+    "preco": "Freemium",
+    "site": "https://blackbox.ai",
+    "nivel": "Intermediário",
+    "beneficios": [
+      "Extrai texto de código diretamente de vídeos no YouTube",
+      "Busca os melhores trechos na documentação oficial",
+      "Funciona como extensão nativa no VS Code",
+      "Cria comentários e documentação automática"
+    ],
+    "recursos": [
+      { "titulo": "Code Search", "descricao": "Acha a sintaxe correta espalhada por bilhões de linhas open-source" },
+      { "titulo": "Code Extraction", "descricao": "Copie códigos não-selecionáveis apenas selecionando a área na tela" }
+    ],
+    "tagRelacionadas": ["VS Code", "Busca", "DevTools"]
+  },
+  {
+    "id": 37,
+    "nome": "Audo Studio",
+    "descricao": "Limpador de áudio em um clique que remove ruídos de fundo usando IA.",
+    "descricaoLonga": "Audo Studio foca em qualidade de som, ideal para podcasters e criadores de vídeo. Ele analisa arquivos de áudio, remove ecos, barulhos de trânsito ou vento, e nivela o volume magicamente.",
+    "categoria": "Áudio",
+    "tags": ["Limpeza", "Podcast", "Edição"],
+    "imagemUrl": "https://neuro-ai.ru/upload/000/u1/a/c/audo-studio-photo-square.webp",
+    "imagemIcone": "https://neuro-ai.ru/upload/000/u1/a/c/audo-studio-photo-square.webp",
+    "preco": "Freemium",
+    "site": "https://audo.ai",
+    "nivel": "Básico",
+    "beneficios": [
+      "Interface extremamente simples (um clique para limpar)",
+      "Cancelamento de ruído de ponta a ponta",
+      "Equalização automática de vozes irregulares",
+      "Processamento rápido em servidores na nuvem"
+    ],
+    "recursos": [
+      { "titulo": "Noise Reduction", "descricao": "Isola completamente a voz humana de qualquer barulho indesejado" },
+      { "titulo": "Auto Volume", "descricao": "Equilibra o som para que o áudio fique uniforme e profissional" }
+    ],
+    "tagRelacionadas": ["Som", "Voz", "Tratamento"]
+  }
 ]
