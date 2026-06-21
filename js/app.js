@@ -184,7 +184,7 @@ function renderProfile(data) {
     nome: 'Santiago',
     email: 'jose.santiago@gmail.com',
     empresa: 'Meta',
-    cargo: 'Analista de Dados',
+    cargo: 'Engenheiro de IA Sênior',
     telefone: '(88) 94002-8922',
   }
 
