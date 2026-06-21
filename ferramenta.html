@@ -2,59 +2,13 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detalhes da IA - Synapse</title>
     <link rel="stylesheet" href="css/global.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <style>
-      .tool-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 2rem;
-      }
-      .btn-primary {
-        background: var(--text-main);
-        color: #fff;
-        padding: 0.8rem 1.5rem;
-        text-decoration: none;
-        border-radius: 8px;
-        font-weight: bold;
-      }
-      .btn-outline {
-        border: 1px solid var(--primary-color);
-        color: var(--primary-color);
-        padding: 0.8rem 1.5rem;
-        border-radius: 8px;
-        cursor: pointer;
-        background: transparent;
-        font-weight: bold;
-      }
-      .btn-outline.active {
-        background: var(--primary-color);
-        color: white;
-      }
-      .details-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 2rem;
-      }
-      .card-detail {
-        background: #fff;
-        border: 1px solid var(--card-border);
-        border-radius: 12px;
-        padding: 2rem;
-      }
-      .benefits-list {
-        list-style: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        margin-top: 1rem;
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar">
@@ -62,6 +16,12 @@
         <img src="assets/img/Logo Synapse.png" alt="logo synapse" />
         <h1>Synapse</h1>
       </div>
+      
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <i class="fas fa-bars"></i>
+      </label>
+
       <ul class="nav-links">
         <li><a href="index.html">Início</a></li>
         <li><a href="buscar.html">Buscar IAs</a></li>
@@ -72,146 +32,44 @@
 
     <main class="container" id="tool-details">
       <div class="tool-header">
-        <div style="display: flex; align-items: center; gap: 1.5rem">
-          <img
-            id="tool-logo"
-            src=""
-            alt="Logo"
-            style="
-              max-width: 70px;
-              max-height: 70px;
-              object-fit: contain;
-              border-radius: 8px;
-            "
-          />
+        <div class="tool-header-info">
+          <img id="tool-logo" src="" alt="Logo" class="tool-logo" />
           <div>
             <h1 id="tool-name">Carregando...</h1>
-            <p
-              id="tool-desc"
-              style="
-                color: var(--text-muted);
-                margin-top: 0.5rem;
-                max-width: 700px;
-                line-height: 1.5;
-              "
-            ></p>
+            <p id="tool-desc" class="tool-desc"></p>
           </div>
         </div>
-        <div style="display: flex; gap: 1rem; align-items: center">
+        <div class="tool-header-actions">
           <button id="fav-btn" class="btn-outline">
             <i class="fas fa-heart"></i>
           </button>
-          <a href="#" id="tool-link" target="_blank" class="btn-primary"
-            >Acessar Ferramenta ↗</a
-          >
+          <a href="#" id="tool-link" target="_blank" class="btn-primary">Acessar Ferramenta ↗</a>
         </div>
       </div>
 
       <div class="details-grid">
         <div class="card-detail">
-          <h3
-            style="
-              font-size: 1.3rem;
-              margin-bottom: 1rem;
-              color: var(--text-main);
-            "
-          >
-            Principais Benefícios
-          </h3>
-          <ul
-            id="tool-benefits"
-            class="benefits-list"
-            style="margin-bottom: 2.5rem; line-height: 1.8"
-          ></ul>
+          <h3 class="detail-section-title">Principais Benefícios</h3>
+          <ul id="tool-benefits" class="benefits-list"></ul>
 
-          <h3
-            style="
-              font-size: 1.3rem;
-              margin-bottom: 1rem;
-              color: var(--text-main);
-            "
-          >
-            Recursos Técnicos
-          </h3>
-          <div
-            id="tool-resources"
-            style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem"
-          ></div>
+          <h3 class="detail-section-title">Recursos Técnicos</h3>
+          <div id="tool-resources" class="resources-grid"></div>
         </div>
 
         <div>
-          <div
-            class="card-detail"
-            style="margin-bottom: 1.5rem; text-align: center"
-          >
-            <h3
-              style="
-                color: var(--text-muted);
-                font-size: 0.9rem;
-                text-transform: uppercase;
-              "
-            >
-              Modelo de Preço
-            </h3>
-            <h2
-              id="tool-price"
-              style="
-                color: var(--primary-color);
-                font-size: 2.2rem;
-                margin: 0.5rem 0;
-                font-weight: 700;
-              "
-            ></h2>
+          <div class="card-detail card-sidebar-item-center">
+            <h3 class="sidebar-label">Modelo de Preço</h3>
+            <h2 id="tool-price" class="price-value"></h2>
           </div>
 
-          <div class="card-detail" style="margin-bottom: 1.5rem">
-            <h3
-              style="
-                color: var(--text-muted);
-                font-size: 0.9rem;
-                text-transform: uppercase;
-                margin-bottom: 0.5rem;
-              "
-            >
-              Categoria
-            </h3>
-            <p
-              id="tool-category"
-              style="
-                font-weight: 600;
-                background: var(--tag-bg);
-                color: var(--tag-text);
-                padding: 0.6rem;
-                border-radius: 6px;
-                text-align: center;
-                font-size: 0.95rem;
-              "
-            ></p>
+          <div class="card-detail card-sidebar-item">
+            <h3 class="sidebar-label">Categoria</h3>
+            <p id="tool-category" class="category-badge"></p>
           </div>
 
           <div class="card-detail">
-            <h3
-              style="
-                color: var(--text-muted);
-                font-size: 0.9rem;
-                text-transform: uppercase;
-                margin-bottom: 0.5rem;
-              "
-            >
-              Nível de Capacidade
-            </h3>
-            <p
-              id="tool-level"
-              style="
-                font-weight: 600;
-                background: #f3f4f6;
-                color: #374151;
-                padding: 0.6rem;
-                border-radius: 6px;
-                text-align: center;
-                font-size: 0.95rem;
-              "
-            ></p>
+            <h3 class="sidebar-label">Nível de Capacidade</h3>
+            <p id="tool-level" class="level-badge"></p>
           </div>
         </div>
       </div>

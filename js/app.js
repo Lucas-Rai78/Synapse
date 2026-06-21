@@ -215,7 +215,6 @@ function renderProfile(data) {
                 <img src="${tool.imagemUrl}" style="width: 32px; height: 32px; object-fit: contain;" onerror="this.src='https://ui-avatars.com/api/?name=${tool.nome}'">
                 <div>
                     <div style="font-weight: 600; font-size: 0.95rem;">${tool.nome}</div>
-                    <div style="color: var(--text-muted); font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px;">${tool.descricao}</div>
                 </div>
             </div>
         `,
